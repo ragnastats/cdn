@@ -1,7 +1,7 @@
 var fs = require('fs');
 var $ = require('node-jquery');
 
-fs.readFile('grf/idnum2itemresnametable.txt', 'utf8', function(error, response)
+fs.readFile('grf/idnum2itemresnametable.txt', 'utf8', function(error, file)
 {
     if(error)
     {
@@ -9,7 +9,7 @@ fs.readFile('grf/idnum2itemresnametable.txt', 'utf8', function(error, response)
     }
 
     process.chdir('../item/');
-    var items = response.split("\n");
+    var items = file.split("\n");
 
     $.each(items, function(index, item)
     {
