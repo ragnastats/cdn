@@ -1,0 +1,479 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 warn package.json ro-sprite-parser@0.0.1 No repository field.
+5 warn package.json ro-sprite-parser@0.0.1 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/home/cdn/public_html/parser',
+7 verbose install   [ 'node-jquery', 'imagemagick-native' ] ]
+8 info preinstall ro-sprite-parser@0.0.1
+9 warn package.json node-jquery@0.1.0 No repository field.
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping node-jquery@* /home/cdn/public_html/parser
+12 verbose cache add [ 'imagemagick-native@*', null ]
+13 verbose cache add name=undefined spec="imagemagick-native@*" args=["imagemagick-native@*",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'imagemagick-native@*',
+14 verbose parsed url   path: 'imagemagick-native@*',
+14 verbose parsed url   href: 'imagemagick-native@*' }
+15 verbose cache add name="imagemagick-native" spec="*" args=["imagemagick-native","*"]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '*',
+16 verbose parsed url   path: '*',
+16 verbose parsed url   href: '*' }
+17 verbose addNamed [ 'imagemagick-native', '*' ]
+18 verbose addNamed [ null, '*' ]
+19 silly lockFile 65920596-imagemagick-native imagemagick-native@*
+20 verbose lock imagemagick-native@* /home/cdn/.npm/65920596-imagemagick-native.lock
+21 silly addNameRange { name: 'imagemagick-native', range: '*', hasData: false }
+22 verbose url raw imagemagick-native
+23 verbose url resolving [ 'https://registry.npmjs.org/', './imagemagick-native' ]
+24 verbose url resolved https://registry.npmjs.org/imagemagick-native
+25 info trying registry request attempt 1 at 23:53:07
+26 http GET https://registry.npmjs.org/imagemagick-native
+27 http 200 https://registry.npmjs.org/imagemagick-native
+28 silly registry.get cb [ 200,
+28 silly registry.get   { date: 'Mon, 26 May 2014 05:53:07 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+28 silly registry.get     etag: '"691IL74JLKLIMPKE1Z535HJ05"',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'cache-control': 'max-age=1',
+28 silly registry.get     'content-length': '21687',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     age: '1964',
+28 silly registry.get     'x-served-by': 'cache-v43-ASH, cache-d64-DAL',
+28 silly registry.get     'x-cache': 'HIT, MISS',
+28 silly registry.get     'x-cache-hits': '1, 0',
+28 silly registry.get     'x-timer': 'S1401083587.586700,VS0,VE136',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly addNameRange number 2 { name: 'imagemagick-native', range: '*', hasData: true }
+30 silly addNameRange versions [ 'imagemagick-native',
+30 silly addNameRange   [ '0.2.0',
+30 silly addNameRange     '0.2.1',
+30 silly addNameRange     '0.2.2',
+30 silly addNameRange     '0.2.3',
+30 silly addNameRange     '0.2.4',
+30 silly addNameRange     '0.2.5',
+30 silly addNameRange     '0.2.6',
+30 silly addNameRange     '0.2.7',
+30 silly addNameRange     '0.2.8',
+30 silly addNameRange     '0.2.9',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '1.1.0',
+30 silly addNameRange     '1.1.1' ] ]
+31 verbose addNamed [ 'imagemagick-native', '1.1.1' ]
+32 verbose addNamed [ '1.1.1', '1.1.1' ]
+33 silly lockFile a13481de-imagemagick-native-1-1-1 imagemagick-native@1.1.1
+34 verbose lock imagemagick-native@1.1.1 /home/cdn/.npm/a13481de-imagemagick-native-1-1-1.lock
+35 silly lockFile 9daddf31-ive-imagemagick-native-1-1-1-tgz https://registry.npmjs.org/imagemagick-native/-/imagemagick-native-1.1.1.tgz
+36 verbose lock https://registry.npmjs.org/imagemagick-native/-/imagemagick-native-1.1.1.tgz /home/cdn/.npm/9daddf31-ive-imagemagick-native-1-1-1-tgz.lock
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/imagemagick-native/-/imagemagick-native-1.1.1.tgz',
+37 verbose addRemoteTarball   '7d5b3ab5384a7cf7ae73969b5d73f2b6de18e218' ]
+38 info retry fetch attempt 1 at 23:53:07
+39 verbose fetch to= /home/cdn/tmp/npm-4141-a8BZ6ggl/1401083587763-0.9956910952460021/tmp.tgz
+40 http GET https://registry.npmjs.org/imagemagick-native/-/imagemagick-native-1.1.1.tgz
+41 http 200 https://registry.npmjs.org/imagemagick-native/-/imagemagick-native-1.1.1.tgz
+42 verbose tar unpack /home/cdn/tmp/npm-4141-a8BZ6ggl/1401083587763-0.9956910952460021/tmp.tgz
+43 silly lockFile e7ba6519-87763-0-9956910952460021-package tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083587763-0.9956910952460021/package
+44 verbose lock tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083587763-0.9956910952460021/package /home/cdn/.npm/e7ba6519-87763-0-9956910952460021-package.lock
+45 silly lockFile 3a5dc3d4-87763-0-9956910952460021-tmp-tgz tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083587763-0.9956910952460021/tmp.tgz
+46 verbose lock tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083587763-0.9956910952460021/tmp.tgz /home/cdn/.npm/3a5dc3d4-87763-0-9956910952460021-tmp-tgz.lock
+47 silly gunzTarPerm modes [ '755', '644' ]
+48 silly gunzTarPerm extractEntry package.json
+49 silly gunzTarPerm extractEntry .npmignore
+50 silly gunzTarPerm extractEntry Gruntfile.js
+51 silly gunzTarPerm extractEntry test.js
+52 silly gunzTarPerm extractEntry index.js
+53 silly gunzTarPerm extractEntry binding.gyp
+54 silly gunzTarPerm extractEntry get_regvalue.py
+55 silly gunzTarPerm extractEntry .travis.yml
+56 silly gunzTarPerm extractEntry README.markdown
+57 silly gunzTarPerm extractEntry src/imagemagick.cc
+58 silly gunzTarPerm extractEntry src/imagemagick.h
+59 silly gunzTarPerm extractEntry test/benchmark.js
+60 silly gunzTarPerm extractEntry test/leak.js
+61 silly gunzTarPerm extractEntry test/test.js
+62 silly gunzTarPerm extractEntry test/broken.png
+63 silly gunzTarPerm extractEntry test/test.jpg
+64 silly gunzTarPerm extractEntry test/test.maxmemory.jpg
+65 silly gunzTarPerm extractEntry test/test.png
+66 silly gunzTarPerm extractEntry test/test.quantizeColors.png
+67 silly gunzTarPerm extractEntry test/test.wide.png
+68 silly lockFile e7ba6519-87763-0-9956910952460021-package tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083587763-0.9956910952460021/package
+69 silly lockFile e7ba6519-87763-0-9956910952460021-package tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083587763-0.9956910952460021/package
+70 silly lockFile 3a5dc3d4-87763-0-9956910952460021-tmp-tgz tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083587763-0.9956910952460021/tmp.tgz
+71 silly lockFile 3a5dc3d4-87763-0-9956910952460021-tmp-tgz tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083587763-0.9956910952460021/tmp.tgz
+72 verbose tar pack [ '/home/cdn/.npm/imagemagick-native/1.1.1/package.tgz',
+72 verbose tar pack   '/home/cdn/tmp/npm-4141-a8BZ6ggl/1401083587763-0.9956910952460021/package' ]
+73 verbose tarball /home/cdn/.npm/imagemagick-native/1.1.1/package.tgz
+74 verbose folder /home/cdn/tmp/npm-4141-a8BZ6ggl/1401083587763-0.9956910952460021/package
+75 silly lockFile e7ba6519-87763-0-9956910952460021-package tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083587763-0.9956910952460021/package
+76 verbose lock tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083587763-0.9956910952460021/package /home/cdn/.npm/e7ba6519-87763-0-9956910952460021-package.lock
+77 silly lockFile d9c73321-emagick-native-1-1-1-package-tgz tar:///home/cdn/.npm/imagemagick-native/1.1.1/package.tgz
+78 verbose lock tar:///home/cdn/.npm/imagemagick-native/1.1.1/package.tgz /home/cdn/.npm/d9c73321-emagick-native-1-1-1-package-tgz.lock
+79 silly lockFile e7ba6519-87763-0-9956910952460021-package tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083587763-0.9956910952460021/package
+80 silly lockFile e7ba6519-87763-0-9956910952460021-package tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083587763-0.9956910952460021/package
+81 silly lockFile d9c73321-emagick-native-1-1-1-package-tgz tar:///home/cdn/.npm/imagemagick-native/1.1.1/package.tgz
+82 silly lockFile d9c73321-emagick-native-1-1-1-package-tgz tar:///home/cdn/.npm/imagemagick-native/1.1.1/package.tgz
+83 silly lockFile be38f12c-imagemagick-native-1-1-1-package /home/cdn/.npm/imagemagick-native/1.1.1/package
+84 verbose lock /home/cdn/.npm/imagemagick-native/1.1.1/package /home/cdn/.npm/be38f12c-imagemagick-native-1-1-1-package.lock
+85 silly lockFile be38f12c-imagemagick-native-1-1-1-package /home/cdn/.npm/imagemagick-native/1.1.1/package
+86 silly lockFile be38f12c-imagemagick-native-1-1-1-package /home/cdn/.npm/imagemagick-native/1.1.1/package
+87 verbose tar unpack /home/cdn/.npm/imagemagick-native/1.1.1/package.tgz
+88 silly lockFile b59d9e34-imagemagick-native-1-1-1-package tar:///home/cdn/.npm/imagemagick-native/1.1.1/package
+89 verbose lock tar:///home/cdn/.npm/imagemagick-native/1.1.1/package /home/cdn/.npm/b59d9e34-imagemagick-native-1-1-1-package.lock
+90 silly lockFile d9c73321-emagick-native-1-1-1-package-tgz tar:///home/cdn/.npm/imagemagick-native/1.1.1/package.tgz
+91 verbose lock tar:///home/cdn/.npm/imagemagick-native/1.1.1/package.tgz /home/cdn/.npm/d9c73321-emagick-native-1-1-1-package-tgz.lock
+92 silly gunzTarPerm modes [ '755', '644' ]
+93 silly gunzTarPerm extractEntry package.json
+94 silly gunzTarPerm extractEntry .npmignore
+95 silly gunzTarPerm extractEntry Gruntfile.js
+96 silly gunzTarPerm extractEntry index.js
+97 silly gunzTarPerm extractEntry test.js
+98 silly gunzTarPerm extractEntry .travis.yml
+99 silly gunzTarPerm extractEntry binding.gyp
+100 silly gunzTarPerm extractEntry README.markdown
+101 silly gunzTarPerm extractEntry src/imagemagick.cc
+102 silly gunzTarPerm extractEntry src/imagemagick.h
+103 silly gunzTarPerm extractEntry test/benchmark.js
+104 silly gunzTarPerm extractEntry test/leak.js
+105 silly gunzTarPerm extractEntry test/test.js
+106 silly gunzTarPerm extractEntry test/broken.png
+107 silly gunzTarPerm extractEntry test/test.jpg
+108 silly gunzTarPerm extractEntry test/test.maxmemory.jpg
+109 silly gunzTarPerm extractEntry test/test.png
+110 silly gunzTarPerm extractEntry test/test.quantizeColors.png
+111 silly gunzTarPerm extractEntry test/test.wide.png
+112 silly gunzTarPerm extractEntry get_regvalue.py
+113 silly lockFile b59d9e34-imagemagick-native-1-1-1-package tar:///home/cdn/.npm/imagemagick-native/1.1.1/package
+114 silly lockFile b59d9e34-imagemagick-native-1-1-1-package tar:///home/cdn/.npm/imagemagick-native/1.1.1/package
+115 silly lockFile d9c73321-emagick-native-1-1-1-package-tgz tar:///home/cdn/.npm/imagemagick-native/1.1.1/package.tgz
+116 silly lockFile d9c73321-emagick-native-1-1-1-package-tgz tar:///home/cdn/.npm/imagemagick-native/1.1.1/package.tgz
+117 verbose chmod /home/cdn/.npm/imagemagick-native/1.1.1/package.tgz 644
+118 verbose chown /home/cdn/.npm/imagemagick-native/1.1.1/package.tgz [ 1002, 1002 ]
+119 silly lockFile 9daddf31-ive-imagemagick-native-1-1-1-tgz https://registry.npmjs.org/imagemagick-native/-/imagemagick-native-1.1.1.tgz
+120 silly lockFile 9daddf31-ive-imagemagick-native-1-1-1-tgz https://registry.npmjs.org/imagemagick-native/-/imagemagick-native-1.1.1.tgz
+121 silly lockFile a13481de-imagemagick-native-1-1-1 imagemagick-native@1.1.1
+122 silly lockFile a13481de-imagemagick-native-1-1-1 imagemagick-native@1.1.1
+123 silly lockFile 65920596-imagemagick-native imagemagick-native@*
+124 silly lockFile 65920596-imagemagick-native imagemagick-native@*
+125 silly resolved [ { name: 'imagemagick-native',
+125 silly resolved     description: 'ImageMagick\'s Magick++ bindings for NodeJS',
+125 silly resolved     keywords: [ 'imagemagick', 'magick++', 'resize', 'convert' ],
+125 silly resolved     version: '1.1.1',
+125 silly resolved     repository:
+125 silly resolved      { type: 'git',
+125 silly resolved        url: 'git://github.com/mash/node-imagemagick-native.git' },
+125 silly resolved     author:
+125 silly resolved      { name: 'Masakazu Ohtsuka',
+125 silly resolved        email: 'o.masakazu@gmail.com',
+125 silly resolved        url: 'http://maaash.jp/' },
+125 silly resolved     contributors: [],
+125 silly resolved     main: './index.js',
+125 silly resolved     scripts: { test: 'node test/test.js', install: 'node-gyp rebuild' },
+125 silly resolved     engines: { node: '*' },
+125 silly resolved     dependencies: { nan: '~1.1.0' },
+125 silly resolved     devDependencies:
+125 silly resolved      { tap: '*',
+125 silly resolved        grunt: '~0.4',
+125 silly resolved        'grunt-release': '~0.7',
+125 silly resolved        'grunt-contrib-clean': '~0.5' },
+125 silly resolved     readme: '# node-imagemagick-native\n\n[Imagemagick](http://www.imagemagick.org/)\'s [Magick++](http://www.imagemagick.org/Magick++/) binding for [Node](http://nodejs.org/).\n\n[![Build Status](https://travis-ci.org/mash/node-imagemagick-native.png)](https://travis-ci.org/mash/node-imagemagick-native)\n\n## Example\n\n    var imagemagick = require(\'imagemagick-native\')\n    ,   srcData     = require(\'fs\').readFileSync(\'./test/test.png\');\n\n    // returns a Buffer instance\n    var resizedBuffer = imagemagick.convert({\n        srcData: srcData, // provide a Buffer instance\n        width: 100,\n        height: 100,\n        resizeStyle: "aspectfill",\n        quality: 80,\n        format: \'JPEG\'\n    });\n\n    require(\'fs\').writeFileSync(\'./test/out.png\', resizedBuffer, \'binary\');\n\n## API\n\n### convert( options )\n\nConvert a buffer provided as `options.srcData` and return a Buffer.\n\nThe `options` argument can have following values:\n\n    {\n        srcData:        required. Buffer with binary image data\n        quality:        optional. 0-100 integer, default 75. JPEG/MIFF/PNG compression level.\n        width:          optional. px.\n        height:         optional. px.\n        resizeStyle:    optional. default: "aspectfill". can be "aspectfit", "fill"\n                        aspectfill: keep aspect ratio, get the exact provided size,\n                                    crop top/bottom or left/right if necessary\n                        aspectfit:  keep aspect ratio, get maximum image that fits inside provided size\n                        fill:       forget aspect ratio, get the exact provided size\n        format:         optional. one of http://www.imagemagick.org/script/formats.php ex: "JPEG"\n        rotate:         optional. degrees.\n        debug:          optional. 1 or 0\n        ignoreWarnings: optional. 1 or 0\n    }\n\n### identify( options )\n\nIdentify a buffer provided as `srcData` and return an object.\n\nThe `options` argument can have following values:\n\n    {\n        srcData:        required. Buffer with binary image data\n        debug:          optional. 1 or 0\n        ignoreWarnings: optional. 1 or 0\n    }\n\nThe method returns an object similar to:\n\n    {\n        format: \'JPEG\',\n        width: 3904,\n        height: 2622,\n        depth: 8,\n        exif: {\n            orientation: 0 # 0 if none exists\n        }\n    }\n\n### quantizeColors( options )\n\nQuantize the image to a specified amount of colors from a buffer provided as `srcData` and return an array.\n\nThe `options` argument can have following values:\n\n    {\n        srcData:        required. Buffer with binary image data\n        colors:         required. number of colors to extract, defaults to 5\n        debug:          optional. 1 or 0\n        ignoreWarnings: optional. 1 or 0\n    }\n\nThe method returns an array similar to:\n\n    [\n        {\n            r: 83,\n            g: 56,\n            b: 35,\n            hex: \'533823\'\n        },\n        {\n            r: 149,\n            g: 110,\n            b: 73,\n            hex: \'956e49\'\n        },\n        {\n            r: 165,\n            g: 141,\n            b: 111,\n            hex: \'a58d6f\n        }\n    ]\n\n### composite( options )\n\nComposite a buffer provided as `options.compositeData` on a buffer provided as `options.srcData` with gravity specified by `options.gravity` and return a Buffer.\n\nThe `options` argument can have following values:\n\n    {\n        srcData:        required. Buffer with binary image data\n        compositeData:  required. Buffer with binary image data\n        gravity:        optional. Can be one of "CenterGravity" "EastGravity" "ForgetGravity" "NorthEastGravity" "NorthGravity" "NorthWestGravity" "SouthEastGravity" "SouthGravity" "SouthWestGravity" "WestGravity"\n        debug:          optional. 1 or 0\n        ignoreWarnings: optional. 1 or 0\n    }\n\nThis library currently provide only these, please try [node-imagemagick](https://github.com/rsms/node-imagemagick/) if you want more.\n\n## Installation\n\n### Linux / Mac\n\nInstall [Imagemagick](http://www.imagemagick.org/) with headers before installing this module.\nTested with ImageMagick 6.7.7 on CentOS6 and MacOS10.7, Ubuntu12.04 .\n\n    brew install imagemagick\n\n      or\n\n    sudo yum install ImageMagick-c++ ImageMagick-c++-devel\n\n      or\n\n    sudo apt-get install libmagick++-dev\n\nMake sure you can find Magick++-config in your PATH.\nThen:\n\n    npm install imagemagick-native\n\n### Windows\n\nTested on Windows 7 x64.\n\n1. Install Python 2.7.3 only 2.7.3 nothing else works quite right!\n\n    If you use Cygwin ensure you don\'t have Python installed in Cygwin setup as there will be some confusion about what version to use.\n\n2. Install [Visual Studio C++ 2010 Express](http://www.microsoft.com/en-us/download/details.aspx?id=8279)\n\n3. (64-bit only) [Install Windows 7 64-bit SDK](http://www.microsoft.com/en-us/download/details.aspx?id=8279)\n\n4. Install [Imagemagick dll binary x86 Q16](http://www.imagemagick.org/download/binaries/ImageMagick-6.8.5-10-Q16-x86-dll.exe) or [Imagemagick dll binary x64 Q16](http://www.imagemagick.org/download/binaries/ImageMagick-6.8.5-10-Q16-x64-dll.exe), check for libraries and includes during install.\n\nThen:\n\n    npm install imagemagick-native\n\n## Performance - simple thumbnail creation\n\n    imagemagick:       16.09ms per iteration\n    imagemagick-native: 0.89ms per iteration\n\nSee `node test/benchmark.js` for details.\n\n\n## License (MIT)\n\nCopyright (c) Masakazu Ohtsuka <http://maaash.jp/>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the "Software"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n',
+125 silly resolved     readmeFilename: 'README.markdown',
+125 silly resolved     gypfile: true,
+125 silly resolved     bugs: { url: 'https://github.com/mash/node-imagemagick-native/issues' },
+125 silly resolved     homepage: 'https://github.com/mash/node-imagemagick-native',
+125 silly resolved     _id: 'imagemagick-native@1.1.1',
+125 silly resolved     dist: { shasum: '076f486d8d3ad39fab0f746cf65b62ef6b383607' },
+125 silly resolved     _from: 'imagemagick-native@*',
+125 silly resolved     _resolved: 'https://registry.npmjs.org/imagemagick-native/-/imagemagick-native-1.1.1.tgz' } ]
+126 info install imagemagick-native@1.1.1 into /home/cdn/public_html/parser
+127 info installOne imagemagick-native@1.1.1
+128 info /home/cdn/public_html/parser/node_modules/imagemagick-native unbuild
+129 verbose tar unpack /home/cdn/.npm/imagemagick-native/1.1.1/package.tgz
+130 silly lockFile 41fc9671--node-modules-imagemagick-native tar:///home/cdn/public_html/parser/node_modules/imagemagick-native
+131 verbose lock tar:///home/cdn/public_html/parser/node_modules/imagemagick-native /home/cdn/.npm/41fc9671--node-modules-imagemagick-native.lock
+132 silly lockFile d9c73321-emagick-native-1-1-1-package-tgz tar:///home/cdn/.npm/imagemagick-native/1.1.1/package.tgz
+133 verbose lock tar:///home/cdn/.npm/imagemagick-native/1.1.1/package.tgz /home/cdn/.npm/d9c73321-emagick-native-1-1-1-package-tgz.lock
+134 silly gunzTarPerm modes [ '755', '644' ]
+135 silly gunzTarPerm extractEntry package.json
+136 silly gunzTarPerm extractEntry .npmignore
+137 silly gunzTarPerm extractEntry Gruntfile.js
+138 silly gunzTarPerm extractEntry index.js
+139 silly gunzTarPerm extractEntry test.js
+140 silly gunzTarPerm extractEntry .travis.yml
+141 silly gunzTarPerm extractEntry binding.gyp
+142 silly gunzTarPerm extractEntry README.markdown
+143 silly gunzTarPerm extractEntry src/imagemagick.cc
+144 silly gunzTarPerm extractEntry src/imagemagick.h
+145 silly gunzTarPerm extractEntry test/benchmark.js
+146 silly gunzTarPerm extractEntry test/leak.js
+147 silly gunzTarPerm extractEntry test/test.js
+148 silly gunzTarPerm extractEntry test/broken.png
+149 silly gunzTarPerm extractEntry test/test.jpg
+150 silly gunzTarPerm extractEntry test/test.maxmemory.jpg
+151 silly gunzTarPerm extractEntry test/test.png
+152 silly gunzTarPerm extractEntry test/test.quantizeColors.png
+153 silly gunzTarPerm extractEntry test/test.wide.png
+154 silly gunzTarPerm extractEntry get_regvalue.py
+155 silly lockFile 41fc9671--node-modules-imagemagick-native tar:///home/cdn/public_html/parser/node_modules/imagemagick-native
+156 silly lockFile 41fc9671--node-modules-imagemagick-native tar:///home/cdn/public_html/parser/node_modules/imagemagick-native
+157 silly lockFile d9c73321-emagick-native-1-1-1-package-tgz tar:///home/cdn/.npm/imagemagick-native/1.1.1/package.tgz
+158 silly lockFile d9c73321-emagick-native-1-1-1-package-tgz tar:///home/cdn/.npm/imagemagick-native/1.1.1/package.tgz
+159 info preinstall imagemagick-native@1.1.1
+160 verbose readDependencies using package.json deps
+161 verbose readDependencies using package.json deps
+162 verbose cache add [ 'nan@~1.1.0', null ]
+163 verbose cache add name=undefined spec="nan@~1.1.0" args=["nan@~1.1.0",null]
+164 verbose parsed url { protocol: null,
+164 verbose parsed url   slashes: null,
+164 verbose parsed url   auth: null,
+164 verbose parsed url   host: null,
+164 verbose parsed url   port: null,
+164 verbose parsed url   hostname: null,
+164 verbose parsed url   hash: null,
+164 verbose parsed url   search: null,
+164 verbose parsed url   query: null,
+164 verbose parsed url   pathname: 'nan@~1.1.0',
+164 verbose parsed url   path: 'nan@~1.1.0',
+164 verbose parsed url   href: 'nan@~1.1.0' }
+165 verbose cache add name="nan" spec="~1.1.0" args=["nan","~1.1.0"]
+166 verbose parsed url { protocol: null,
+166 verbose parsed url   slashes: null,
+166 verbose parsed url   auth: null,
+166 verbose parsed url   host: null,
+166 verbose parsed url   port: null,
+166 verbose parsed url   hostname: null,
+166 verbose parsed url   hash: null,
+166 verbose parsed url   search: null,
+166 verbose parsed url   query: null,
+166 verbose parsed url   pathname: '~1.1.0',
+166 verbose parsed url   path: '~1.1.0',
+166 verbose parsed url   href: '~1.1.0' }
+167 verbose addNamed [ 'nan', '~1.1.0' ]
+168 verbose addNamed [ null, '>=1.1.0-0 <1.2.0-0' ]
+169 silly lockFile 90ef4ad2-nan-1-1-0 nan@~1.1.0
+170 verbose lock nan@~1.1.0 /home/cdn/.npm/90ef4ad2-nan-1-1-0.lock
+171 silly addNameRange { name: 'nan', range: '>=1.1.0-0 <1.2.0-0', hasData: false }
+172 verbose url raw nan
+173 verbose url resolving [ 'https://registry.npmjs.org/', './nan' ]
+174 verbose url resolved https://registry.npmjs.org/nan
+175 info trying registry request attempt 1 at 23:53:08
+176 verbose etag "6LINUV3CT91YKWSBCEUQS4GL3"
+177 http GET https://registry.npmjs.org/nan
+178 http 200 https://registry.npmjs.org/nan
+179 silly registry.get cb [ 200,
+179 silly registry.get   { date: 'Mon, 26 May 2014 05:53:08 GMT',
+179 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+179 silly registry.get     etag: '"3P9WNAW3RKYBQBTP7GVYIFK8P"',
+179 silly registry.get     'content-type': 'application/json',
+179 silly registry.get     via: '1.1 varnish',
+179 silly registry.get     'cache-control': 'max-age=1',
+179 silly registry.get     'content-length': '64698',
+179 silly registry.get     'accept-ranges': 'bytes',
+179 silly registry.get     age: '217',
+179 silly registry.get     'x-served-by': 'cache-v43-ASH, cache-d97-DAL',
+179 silly registry.get     'x-cache': 'HIT, HIT',
+179 silly registry.get     'x-cache-hits': '1, 1',
+179 silly registry.get     'x-timer': 'S1401083588.596197,VS0,VE149',
+179 silly registry.get     vary: 'Accept',
+179 silly registry.get     'keep-alive': 'timeout=10, max=50',
+179 silly registry.get     connection: 'Keep-Alive' } ]
+180 silly addNameRange number 2 { name: 'nan', range: '>=1.1.0-0 <1.2.0-0', hasData: true }
+181 silly addNameRange versions [ 'nan',
+181 silly addNameRange   [ '0.3.0-wip',
+181 silly addNameRange     '0.3.0-wip2',
+181 silly addNameRange     '0.3.0',
+181 silly addNameRange     '0.3.1',
+181 silly addNameRange     '0.3.2',
+181 silly addNameRange     '0.4.0',
+181 silly addNameRange     '0.4.1',
+181 silly addNameRange     '0.4.2',
+181 silly addNameRange     '0.4.3',
+181 silly addNameRange     '0.4.4',
+181 silly addNameRange     '0.5.0',
+181 silly addNameRange     '0.5.1',
+181 silly addNameRange     '0.5.2',
+181 silly addNameRange     '0.6.0',
+181 silly addNameRange     '0.7.0',
+181 silly addNameRange     '0.7.1',
+181 silly addNameRange     '0.8.0',
+181 silly addNameRange     '1.0.0',
+181 silly addNameRange     '1.1.0' ] ]
+182 verbose addNamed [ 'nan', '1.1.0' ]
+183 verbose addNamed [ '1.1.0', '1.1.0' ]
+184 silly lockFile c259c6c7-nan-1-1-0 nan@1.1.0
+185 verbose lock nan@1.1.0 /home/cdn/.npm/c259c6c7-nan-1-1-0.lock
+186 silly lockFile 3be80b69-stry-npmjs-org-nan-nan-1-1-0-tgz https://registry.npmjs.org/nan/-/nan-1.1.0.tgz
+187 verbose lock https://registry.npmjs.org/nan/-/nan-1.1.0.tgz /home/cdn/.npm/3be80b69-stry-npmjs-org-nan-nan-1-1-0-tgz.lock
+188 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-1.1.0.tgz',
+188 verbose addRemoteTarball   '6ca1ab85dc2cd75d6e7d5cbf3d9491bbb97d4aa5' ]
+189 info retry fetch attempt 1 at 23:53:08
+190 verbose fetch to= /home/cdn/tmp/npm-4141-a8BZ6ggl/1401083588811-0.8227200533729047/tmp.tgz
+191 http GET https://registry.npmjs.org/nan/-/nan-1.1.0.tgz
+192 http 200 https://registry.npmjs.org/nan/-/nan-1.1.0.tgz
+193 verbose tar unpack /home/cdn/tmp/npm-4141-a8BZ6ggl/1401083588811-0.8227200533729047/tmp.tgz
+194 silly lockFile ff214ab0-88811-0-8227200533729047-package tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083588811-0.8227200533729047/package
+195 verbose lock tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083588811-0.8227200533729047/package /home/cdn/.npm/ff214ab0-88811-0-8227200533729047-package.lock
+196 silly lockFile b342cf53-88811-0-8227200533729047-tmp-tgz tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083588811-0.8227200533729047/tmp.tgz
+197 verbose lock tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083588811-0.8227200533729047/tmp.tgz /home/cdn/.npm/b342cf53-88811-0-8227200533729047-tmp-tgz.lock
+198 silly gunzTarPerm modes [ '755', '644' ]
+199 silly gunzTarPerm extractEntry package.json
+200 silly gunzTarPerm extractEntry README.md
+201 silly gunzTarPerm extractEntry LICENSE
+202 silly gunzTarPerm extractEntry include_dirs.js
+203 silly gunzTarPerm extractEntry .dntrc
+204 silly gunzTarPerm extractEntry build/config.gypi
+205 silly gunzTarPerm extractEntry nan.h
+206 silly lockFile ff214ab0-88811-0-8227200533729047-package tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083588811-0.8227200533729047/package
+207 silly lockFile ff214ab0-88811-0-8227200533729047-package tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083588811-0.8227200533729047/package
+208 silly lockFile b342cf53-88811-0-8227200533729047-tmp-tgz tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083588811-0.8227200533729047/tmp.tgz
+209 silly lockFile b342cf53-88811-0-8227200533729047-tmp-tgz tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083588811-0.8227200533729047/tmp.tgz
+210 verbose tar pack [ '/home/cdn/.npm/nan/1.1.0/package.tgz',
+210 verbose tar pack   '/home/cdn/tmp/npm-4141-a8BZ6ggl/1401083588811-0.8227200533729047/package' ]
+211 verbose tarball /home/cdn/.npm/nan/1.1.0/package.tgz
+212 verbose folder /home/cdn/tmp/npm-4141-a8BZ6ggl/1401083588811-0.8227200533729047/package
+213 silly lockFile ff214ab0-88811-0-8227200533729047-package tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083588811-0.8227200533729047/package
+214 verbose lock tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083588811-0.8227200533729047/package /home/cdn/.npm/ff214ab0-88811-0-8227200533729047-package.lock
+215 silly lockFile 02776fac-me-cdn-npm-nan-1-1-0-package-tgz tar:///home/cdn/.npm/nan/1.1.0/package.tgz
+216 verbose lock tar:///home/cdn/.npm/nan/1.1.0/package.tgz /home/cdn/.npm/02776fac-me-cdn-npm-nan-1-1-0-package-tgz.lock
+217 silly lockFile ff214ab0-88811-0-8227200533729047-package tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083588811-0.8227200533729047/package
+218 silly lockFile ff214ab0-88811-0-8227200533729047-package tar:///home/cdn/tmp/npm-4141-a8BZ6ggl/1401083588811-0.8227200533729047/package
+219 silly lockFile 02776fac-me-cdn-npm-nan-1-1-0-package-tgz tar:///home/cdn/.npm/nan/1.1.0/package.tgz
+220 silly lockFile 02776fac-me-cdn-npm-nan-1-1-0-package-tgz tar:///home/cdn/.npm/nan/1.1.0/package.tgz
+221 silly lockFile 13f70bad-home-cdn-npm-nan-1-1-0-package /home/cdn/.npm/nan/1.1.0/package
+222 verbose lock /home/cdn/.npm/nan/1.1.0/package /home/cdn/.npm/13f70bad-home-cdn-npm-nan-1-1-0-package.lock
+223 silly lockFile 13f70bad-home-cdn-npm-nan-1-1-0-package /home/cdn/.npm/nan/1.1.0/package
+224 silly lockFile 13f70bad-home-cdn-npm-nan-1-1-0-package /home/cdn/.npm/nan/1.1.0/package
+225 verbose tar unpack /home/cdn/.npm/nan/1.1.0/package.tgz
+226 silly lockFile ed00c699-r-home-cdn-npm-nan-1-1-0-package tar:///home/cdn/.npm/nan/1.1.0/package
+227 verbose lock tar:///home/cdn/.npm/nan/1.1.0/package /home/cdn/.npm/ed00c699-r-home-cdn-npm-nan-1-1-0-package.lock
+228 silly lockFile 02776fac-me-cdn-npm-nan-1-1-0-package-tgz tar:///home/cdn/.npm/nan/1.1.0/package.tgz
+229 verbose lock tar:///home/cdn/.npm/nan/1.1.0/package.tgz /home/cdn/.npm/02776fac-me-cdn-npm-nan-1-1-0-package-tgz.lock
+230 silly gunzTarPerm modes [ '755', '644' ]
+231 silly gunzTarPerm extractEntry package.json
+232 silly gunzTarPerm extractEntry README.md
+233 silly gunzTarPerm extractEntry LICENSE
+234 silly gunzTarPerm extractEntry include_dirs.js
+235 silly gunzTarPerm extractEntry .dntrc
+236 silly gunzTarPerm extractEntry build/config.gypi
+237 silly gunzTarPerm extractEntry nan.h
+238 silly lockFile ed00c699-r-home-cdn-npm-nan-1-1-0-package tar:///home/cdn/.npm/nan/1.1.0/package
+239 silly lockFile ed00c699-r-home-cdn-npm-nan-1-1-0-package tar:///home/cdn/.npm/nan/1.1.0/package
+240 silly lockFile 02776fac-me-cdn-npm-nan-1-1-0-package-tgz tar:///home/cdn/.npm/nan/1.1.0/package.tgz
+241 silly lockFile 02776fac-me-cdn-npm-nan-1-1-0-package-tgz tar:///home/cdn/.npm/nan/1.1.0/package.tgz
+242 verbose chmod /home/cdn/.npm/nan/1.1.0/package.tgz 644
+243 verbose chown /home/cdn/.npm/nan/1.1.0/package.tgz [ 1002, 1002 ]
+244 silly lockFile 3be80b69-stry-npmjs-org-nan-nan-1-1-0-tgz https://registry.npmjs.org/nan/-/nan-1.1.0.tgz
+245 silly lockFile 3be80b69-stry-npmjs-org-nan-nan-1-1-0-tgz https://registry.npmjs.org/nan/-/nan-1.1.0.tgz
+246 silly lockFile c259c6c7-nan-1-1-0 nan@1.1.0
+247 silly lockFile c259c6c7-nan-1-1-0 nan@1.1.0
+248 silly lockFile 90ef4ad2-nan-1-1-0 nan@~1.1.0
+249 silly lockFile 90ef4ad2-nan-1-1-0 nan@~1.1.0
+250 silly resolved [ { name: 'nan',
+250 silly resolved     version: '1.1.0',
+250 silly resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+250 silly resolved     main: 'include_dirs.js',
+250 silly resolved     repository: { type: 'git', url: 'git://github.com/rvagg/nan.git' },
+250 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+250 silly resolved     license: 'MIT',
+250 silly resolved     readme: 'Native Abstractions for Node.js\n===============================\n\n**A header file filled with macro and utility goodness for making add-on development for Node.js easier across versions 0.8, 0.10 and 0.11, and eventually 0.12.**\n\n***Current version: 1.1.0*** *(See [nan.h](https://github.com/rvagg/nan/blob/master/nan.h) for complete ChangeLog)*\n\n[![NPM](https://nodei.co/npm/nan.png?downloads=true)](https://nodei.co/npm/nan/) [![NPM](https://nodei.co/npm-dl/nan.png?months=6)](https://nodei.co/npm/nan/)\n\nThanks to the crazy changes in V8 (and some in Node core), keeping native addons compiling happily across versions, particularly 0.10 to 0.11/0.12, is a minor nightmare. The goal of this project is to store all logic necessary to develop native Node.js addons without having to inspect `NODE_MODULE_VERSION` and get yourself into a macro-tangle.\n\nThis project also contains some helper utilities that make addon development a bit more pleasant.\n\n * **[News & Updates](#news)**\n * **[Usage](#usage)**\n * **[Example](#example)**\n * **[API](#api)**\n\n<a name="news"></a>\n## News & Updates\n\n### May-2014: 1.1.0 release\n\n* We\'ve deprecated `NanSymbol()`, you should just use `NanNew<String>()` now.\n* `NanNull()`, `NanUndefined()`, `NanTrue()`, `NanFalse()` all return `Local`s now.\n* `nan_isolate` is gone, it was intended to be internal-only but if you were using it then you should switch to `v8::Isolate::GetCurrent()`.\n* `NanNew()` has received some additional overload-love so you should be able to give it many kinds of values without specifying the `<Type>`.\n* Lots of small fixes and additions to expand the V8 API coverage, *use the source, Luke*.\n\n\n### May-2014: Major changes for V8 3.25 / Node 0.11.13\n\nNode 0.11.11 and 0.11.12 were both broken releases for native add-ons, you simply can\'t properly compile against either of them for different reasons. But we now have a 0.11.13 release that jumps a couple of versions of V8 ahead and includes some more, major (traumatic) API changes.\n\nBecause we are now nearing Node 0.12 and estimate that the version of V8 we are using in Node 0.11.13 will be close to the API we get for 0.12, we have taken the opportunity to not only *fix* NAN for 0.11.13 but make some major changes to improve the NAN API.\n\nWe have **removed support for Node 0.11 versions prior to 0.11.13**. As usual, our tests are run against (and pass) the last 5 versions of Node 0.8 and Node 0.10. We also include Node 0.11.13 obviously.\n\nThe major change is something that [Benjamin Byholm](kkoopa) has put many hours in to. We now have a fantastic new `NanNew<T>(args)` interface for creating new `Local`s, this replaces `NanNewLocal()` and much more. If you look in [./nan.h](nan.h) you\'ll see a large number of overloaded versions of this method. In general you should be able to `NanNew<Type>(arguments)` for any type you want to make a `Local` from. This includes `Persistent` types, so we now have a `Local<T> NanNew(const Persistent<T> arg)` to replace `NanPersistentToLocal()`.\n\nWe also now have `NanUndefined()`, `NanNull()`, `NanTrue()` and `NanFalse()`. Mainly because of the new requirement for an `Isolate` argument for each of the native V8 versions of this.\n\nV8 has now introduced an `EscapableHandleScope` from which you `scope.Escape(Local<T> value)` to *return* a value from a one scope to another. This replaces the standard `HandleScope` and `scope.Close(Local<T> value)`, although `HandleScope` still exists for when you don\'t need to return a handle to the caller. For NAN we are exposing it as `NanEscapableScope()` and `NanEscapeScope()`, while `NanScope()` is still how you create a new scope that doesn\'t need to return handles. For older versions of Node/V8, it\'ll still map to the older `HandleScope` functionality.\n\n`NanFromV8String()` was deprecated and has now been removed. You should use `NanCString()` or `NanRawString()` instead.\n\nBecause `node::MakeCallback()` now takes an `Isolate`, and because it doesn\'t exist in older versions of Node, we\'ve introduced `NanMakeCallback()`. You should *always* use this when calling a JavaScript function from C++.\n\nThere\'s lots more, check out the Changelog in nan.h or look through [#86](https://github.com/rvagg/nan/pull/86) for all the gory details.\n\n### Dec-2013: NanCString and NanRawString\n\nTwo new functions have been introduced to replace the functionality that\'s been provided by `NanFromV8String` until now. NanCString has sensible defaults so it\'s super easy to fetch a null-terminated c-style string out of a `v8::String`. `NanFromV8String` is still around and has defaults that allow you to pass a single handle to fetch a `char*` while `NanRawString` requires a little more attention to arguments.\n\n### Nov-2013: Node 0.11.9+ breaking V8 change\n\nThe version of V8 that\'s shipping with Node 0.11.9+ has changed the signature for new `Local`s to: `v8::Local<T>::New(isolate, value)`, i.e. introducing the `isolate` argument and therefore breaking all new `Local` declarations for previous versions. NAN 0.6+ now includes a `NanNewLocal<T>(value)` that can be used in place to work around this incompatibility and maintain compatibility with 0.8->0.11.9+ (minus a few early 0.11 releases).\n\nFor example, if you wanted to return a `null` on a callback you will have to change the argument from `v8::Local<v8::Value>::New(v8::Null())` to `NanNewLocal<v8::Value>(v8::Null())`.\n\n### Nov-2013: Change to binding.gyp `"include_dirs"` for NAN\n\nInclusion of NAN in a project\'s binding.gyp is now greatly simplified. You can now just use `"<!(node -e \\"require(\'nan\')\\")"` in your `"include_dirs"`, see example below (note Windows needs the quoting around `require` to be just right: `"require(\'nan\')"` with appropriate `\\` escaping).\n\n<a name="usage"></a>\n## Usage\n\nSimply add **NAN** as a dependency in the *package.json* of your Node addon:\n\n``` bash\n$ npm install --save nan\n```\n\nPull in the path to **NAN** in your *binding.gyp* so that you can use `#include <nan.h>` in your *.cpp* files:\n\n``` python\n"include_dirs" : [\n    "<!(node -e \\"require(\'nan\')\\")"\n]\n```\n\nThis works like a `-I<path-to-NAN>` when compiling your addon.\n\n<a name="example"></a>\n## Example\n\nSee **[LevelDOWN](https://github.com/rvagg/node-leveldown/pull/48)** for a full example of **NAN** in use.\n\nFor a simpler example, see the **[async pi estimation example](https://github.com/rvagg/nan/tree/master/examples/async_pi_estimate)** in the examples directory for full code and an explanation of what this Monte Carlo Pi estimation example does. Below are just some parts of the full example that illustrate the use of **NAN**.\n\nCompare to the current 0.10 version of this example, found in the [node-addon-examples](https://github.com/rvagg/node-addon-examples/tree/master/9_async_work) repository and also a 0.11 version of the same found [here](https://github.com/kkoopa/node-addon-examples/tree/5c01f58fc993377a567812597e54a83af69686d7/9_async_work).\n\nNote that there is no embedded version sniffing going on here and also the async work is made much simpler, see below for details on the `NanAsyncWorker` class.\n\n```c++\n// addon.cc\n#include <node.h>\n#include <nan.h>\n// ...\n\nusing v8::FunctionTemplate;\nusing v8::Handle;\nusing v8::Object;\nusing v8::String;\n\nvoid InitAll(Handle<Object> exports) {\n  exports->Set(NanNew<String>("calculateSync"),\n    NanNew<FunctionTemplate>(CalculateSync)->GetFunction());\n\n  exports->Set(NanNew<String>("calculateAsync"),\n    NanNew<FunctionTemplate>(CalculateAsync)->GetFunction());\n}\n\nNODE_MODULE(addon, InitAll)\n```\n\n```c++\n// sync.h\n#include <node.h>\n#include <nan.h>\n\nNAN_METHOD(CalculateSync);\n```\n\n```c++\n// sync.cc\n#include <node.h>\n#include <nan.h>\n#include "./sync.h"\n// ...\n\nusing v8::Number;\n\n// Simple synchronous access to the `Estimate()` function\nNAN_METHOD(CalculateSync) {\n  NanScope();\n\n  // expect a number as the first argument\n  int points = args[0]->Uint32Value();\n  double est = Estimate(points);\n\n  NanReturnValue(NanNew<Number>(est));\n}\n```\n\n```c++\n// async.cc\n#include <node.h>\n#include <nan.h>\n#include "./async.h"\n\n// ...\n\nusing v8::Function;\nusing v8::Local;\nusing v8::Null;\nusing v8::Number;\nusing v8::Value;\n\nclass PiWorker : public NanAsyncWorker {\n public:\n  PiWorker(NanCallback *callback, int points)\n    : NanAsyncWorker(callback), points(points) {}\n  ~PiWorker() {}\n\n  // Executed inside the worker-thread.\n  // It is not safe to access V8, or V8 data structures\n  // here, so everything we need for input and output\n  // should go on `this`.\n  void Execute () {\n    estimate = Estimate(points);\n  }\n\n  // Executed when the async work is complete\n  // this function will be run inside the main event loop\n  // so it is safe to use V8 again\n  void HandleOKCallback () {\n    NanScope();\n\n    Local<Value> argv[] = {\n        NanNull()\n      , NanNew<Number>(estimate)\n    };\n\n    callback->Call(2, argv);\n  };\n\n private:\n  int points;\n  double estimate;\n};\n\n// Asynchronous access to the `Estimate()` function\nNAN_METHOD(CalculateAsync) {\n  NanScope();\n\n  int points = args[0]->Uint32Value();\n  NanCallback *callback = new NanCallback(args[1].As<Function>());\n\n  NanAsyncQueueWorker(new PiWorker(callback, points));\n  NanReturnUndefined();\n}\n```\n\n<a name="api"></a>\n## API\n\n * <a href="#api_nan_method"><b><code>NAN_METHOD</code></b></a>\n * <a href="#api_nan_getter"><b><code>NAN_GETTER</code></b></a>\n * <a href="#api_nan_setter"><b><code>NAN_SETTER</code></b></a>\n * <a href="#api_nan_property_getter"><b><code>NAN_PROPERTY_GETTER</code></b></a>\n * <a href="#api_nan_property_setter"><b><code>NAN_PROPERTY_SETTER</code></b></a>\n * <a href="#api_nan_property_enumerator"><b><code>NAN_PROPERTY_ENUMERATOR</code></b></a>\n * <a href="#api_nan_property_deleter"><b><code>NAN_PROPERTY_DELETER</code></b></a>\n * <a href="#api_nan_property_query"><b><code>NAN_PROPERTY_QUERY</code></b></a>\n * <a href="#api_nan_index_getter"><b><code>NAN_INDEX_GETTER</code></b></a>\n * <a href="#api_nan_index_setter"><b><code>NAN_INDEX_SETTER</code></b></a>\n * <a href="#api_nan_index_enumerator"><b><code>NAN_INDEX_ENUMERATOR</code></b></a>\n * <a href="#api_nan_index_deleter"><b><code>NAN_INDEX_DELETER</code></b></a>\n * <a href="#api_nan_index_query"><b><code>NAN_INDEX_QUERY</code></b></a>\n * <a href="#api_nan_weak_callback"><b><code>NAN_WEAK_CALLBACK</code></b></a>\n * <a href="#api_nan_deprecated"><b><code>NAN_DEPRECATED</code></b></a>\n * <a href="#api_nan_inline"><b><code>NAN_INLINE</code></b></a>\n * <a href="#api_nan_new"><b><code>NanNew</code></b></a>\n * <a href="#api_nan_undefined"><b><code>NanUndefined</code></b></a>\n * <a href="#api_nan_null"><b><code>NanNull</code></b></a>\n * <a href="#api_nan_true"><b><code>NanTrue</code></b></a>\n * <a href="#api_nan_false"><b><code>NanFalse</code></b></a>\n * <a href="#api_nan_return_value"><b><code>NanReturnValue</code></b></a>\n * <a href="#api_nan_return_undefined"><b><code>NanReturnUndefined</code></b></a>\n * <a href="#api_nan_return_null"><b><code>NanReturnNull</code></b></a>\n * <a href="#api_nan_return_empty_string"><b><code>NanReturnEmptyString</code></b></a>\n * <a href="#api_nan_scope"><b><code>NanScope</code></b></a>\n * <a href="#api_nan_escapable_scope"><b><code>NanEscapableScope</code></b></a>\n * <a href="#api_nan_escape_scope"><b><code>NanEscapeScope</code></b></a>\n * <a href="#api_nan_locker"><b><code>NanLocker</code></b></a>\n * <a href="#api_nan_unlocker"><b><code>NanUnlocker</code></b></a>\n * <a href="#api_nan_get_internal_field_pointer"><b><code>NanGetInternalFieldPointer</code></b></a>\n * <a href="#api_nan_set_internal_field_pointer"><b><code>NanSetInternalFieldPointer</code></b></a>\n * <a href="#api_nan_object_wrap_handle"><b><code>NanObjectWrapHandle</code></b></a>\n * <del><a href="#api_nan_symbol"><b><code>NanSymbol</code></b></a></del>\n * <a href="#api_nan_get_pointer_safe"><b><code>NanGetPointerSafe</code></b></a>\n * <a href="#api_nan_set_pointer_safe"><b><code>NanSetPointerSafe</code></b></a>\n * <a href="#api_nan_raw_string"><b><code>NanRawString</code></b></a>\n * <a href="#api_nan_c_string"><b><code>NanCString</code></b></a>\n * <a href="#api_nan_boolean_option_value"><b><code>NanBooleanOptionValue</code></b></a>\n * <a href="#api_nan_uint32_option_value"><b><code>NanUInt32OptionValue</code></b></a>\n * <a href="#api_nan_error"><b><code>NanError</code></b>, <b><code>NanTypeError</code></b>, <b><code>NanRangeError</code></b></a>\n * <a href="#api_nan_throw_error"><b><code>NanThrowError</code></b>, <b><code>NanThrowTypeError</code></b>, <b><code>NanThrowRangeError</code></b>, <b><code>NanThrowError(Handle<Value>)</code></b>, <b><code>NanThrowError(Handle<Value>, int)</code></b></a>\n * <a href="#api_nan_new_buffer_handle"><b><code>NanNewBufferHandle(char *, size_t, FreeCallback, void *)</code></b>, <b><code>NanNewBufferHandle(char *, uint32_t)</code></b>, <b><code>NanNewBufferHandle(uint32_t)</code></b></a>\n * <a href="#api_nan_buffer_use"><b><code>NanBufferUse(char *, uint32_t)</code></b></a>\n * <a href="#api_nan_new_context_handle"><b><code>NanNewContextHandle</code></b></a>\n * <a href="#api_nan_get_current_context"><b><code>NanGetCurrentContext</code></b></a>\n * <a href="#api_nan_has_instance"><b><code>NanHasInstance</code></b></a>\n * <a href="#api_nan_dispose_persistent"><b><code>NanDisposePersistent</code></b></a>\n * <a href="#api_nan_assign_persistent"><b><code>NanAssignPersistent</code></b></a>\n * <a href="#api_nan_make_weak_persistent"><b><code>NanMakeWeakPersistent</code></b></a>\n * <a href="#api_nan_set_template"><b><code>NanSetTemplate</code></b></a>\n * <a href="#api_nan_make_callback"><b><code>NanMakeCallback</code></b></a>\n * <a href="#api_nan_compile_script"><b><code>NanCompileScript</code></b></a>\n * <a href="#api_nan_run_script"><b><code>NanRunScript</code></b></a>\n * <a href="#api_nan_adjust_external_memory"><b><code>NanAdjustExternalMemory</code></b></a>\n * <a href="#api_nan_add_gc_epilogue_callback"><b><code>NanAddGCEpilogueCallback</code></b></a>\n * <a href="#api_nan_add_gc_prologue_callback"><b><code>NanAddGCPrologueCallback</code></b></a>\n * <a href="#api_nan_remove_gc_epilogue_callback"><b><code>NanRemoveGCEpilogueCallback</code></b></a>\n * <a href="#api_nan_remove_gc_prologue_callback"><b><code>NanRemoveGCPrologueCallback</code></b></a>\n * <a href="#api_nan_get_heap_statistics"><b><code>NanGetHeapStatistics</code></b></a>\n * <a href="#api_nan_callback"><b><code>NanCallback</code></b></a>\n * <a href="#api_nan_async_worker"><b><code>NanAsyncWorker</code></b></a>\n * <a href="#api_nan_async_queue_worker"><b><code>NanAsyncQueueWorker</code></b></a>\n\n<a name="api_nan_method"></a>\n### NAN_METHOD(methodname)\n\nUse `NAN_METHOD` to define your V8 accessible methods:\n\n```c++\n// .h:\nclass Foo : public node::ObjectWrap {\n  ...\n\n  static NAN_METHOD(Bar);\n  static NAN_METHOD(Baz);\n}\n\n\n// .cc:\nNAN_METHOD(Foo::Bar) {\n  ...\n}\n\nNAN_METHOD(Foo::Baz) {\n  ...\n}\n```\n\nThe reason for this macro is because of the method signature change in 0.11:\n\n```c++\n// 0.10 and below:\nHandle<Value> name(const Arguments& args)\n\n// 0.11 and above\nvoid name(const FunctionCallbackInfo<Value>& args)\n```\n\nThe introduction of `FunctionCallbackInfo` brings additional complications:\n\n<a name="api_nan_getter"></a>\n### NAN_GETTER(methodname)\n\nUse `NAN_GETTER` to declare your V8 accessible getters. You get a `Local<String>` `property` and an appropriately typed `args` object that can act like the `args` argument to a `NAN_METHOD` call.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_GETTER`.\n\n<a name="api_nan_setter"></a>\n### NAN_SETTER(methodname)\n\nUse `NAN_SETTER` to declare your V8 accessible setters. Same as `NAN_GETTER` but you also get a `Local<Value>` `value` object to work with.\n\n<a name="api_nan_property_getter"></a>\n### NAN_PROPERTY_GETTER(cbname)\nUse `NAN_PROPERTY_GETTER` to declare your V8 accessible property getters. You get a `Local<String>` `property` and an appropriately typed `args` object that can act similar to the `args` argument to a `NAN_METHOD` call.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_PROPERTY_GETTER`.\n\n<a name="api_nan_property_setter"></a>\n### NAN_PROPERTY_SETTER(cbname)\nUse `NAN_PROPERTY_SETTER` to declare your V8 accessible property setters. Same as `NAN_PROPERTY_GETTER` but you also get a `Local<Value>` `value` object to work with.\n\n<a name="api_nan_property_enumerator"></a>\n### NAN_PROPERTY_ENUMERATOR(cbname)\nUse `NAN_PROPERTY_ENUMERATOR` to declare your V8 accessible property enumerators. You get an appropriately typed `args` object like the `args` argument to a `NAN_PROPERTY_GETTER` call.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_PROPERTY_ENUMERATOR`.\n\n<a name="api_nan_property_deleter"></a>\n### NAN_PROPERTY_DELETER(cbname)\nUse `NAN_PROPERTY_DELETER` to declare your V8 accessible property deleters. Same as `NAN_PROPERTY_GETTER`.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_PROPERTY_DELETER`.\n\n<a name="api_nan_property_query"></a>\n### NAN_PROPERTY_QUERY(cbname)\nUse `NAN_PROPERTY_QUERY` to declare your V8 accessible property queries. Same as `NAN_PROPERTY_GETTER`.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_PROPERTY_QUERY`.\n\n<a name="api_nan_index_getter"></a>\n### NAN_INDEX_GETTER(cbname)\nUse `NAN_INDEX_GETTER` to declare your V8 accessible index getters. You get a `uint32_t` `index` and an appropriately typed `args` object that can act similar to the `args` argument to a `NAN_METHOD` call.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_INDEX_GETTER`.\n\n<a name="api_nan_index_setter"></a>\n### NAN_INDEX_SETTER(cbname)\nUse `NAN_INDEX_SETTER` to declare your V8 accessible index setters. Same as `NAN_INDEX_GETTER` but you also get a `Local<Value>` `value` object to work with.\n\n<a name="api_nan_index_enumerator"></a>\n### NAN_INDEX_ENUMERATOR(cbname)\nUse `NAN_INDEX_ENUMERATOR` to declare your V8 accessible index enumerators. You get an appropriately typed `args` object like the `args` argument to a `NAN_INDEX_GETTER` call.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_INDEX_ENUMERATOR`.\n\n<a name="api_nan_index_deleter"></a>\n### NAN_INDEX_DELETER(cbname)\nUse `NAN_INDEX_DELETER` to declare your V8 accessible index deleters. Same as `NAN_INDEX_GETTER`.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_INDEX_DELETER`.\n\n<a name="api_nan_index_query"></a>\n### NAN_INDEX_QUERY(cbname)\nUse `NAN_INDEX_QUERY` to declare your V8 accessible index queries. Same as `NAN_INDEX_GETTER`.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_INDEX_QUERY`.\n\n<a name="api_nan_weak_callback"></a>\n### NAN_WEAK_CALLBACK(cbname)\n\nUse `NAN_WEAK_CALLBACK` to define your V8 WeakReference callbacks. Do not use for declaration. There is an argument object `const _NanWeakCallbackData<T, P> &data` allowing access to the weak object and the supplied parameter through its `GetValue` and `GetParameter` methods. You can even access the weak callback info object through the `GetCallbackInfo()`method, but you probably should not. `Revive()` keeps the weak object alive until the next GC round.\n\n```c++\nNAN_WEAK_CALLBACK(weakCallback) {\n  int *parameter = data.GetParameter();\n  NanMakeCallback(NanGetCurrentContext()->Global(), data.GetValue(), 0, NULL);\n  if ((*parameter)++ == 0) {\n    data.Revive();\n  } else {\n    delete parameter;\n  }\n}\n```\n\n<a name="api_nan_deprecated"></a>\n### NAN_DEPRECATED\nDeclares a function as deprecated.\n\n```c++\nstatic NAN_DEPRECATED NAN_METHOD(foo) {\n  ...\n}\n```\n\n<a name="api_nan_inline"></a>\n### NAN_INLINE\nInlines a function.\n\n```c++\nNAN_INLINE int foo(int bar) {\n  ...\n}\n```\n\n<a name="api_nan_new"></a>\n### Local&lt;T&gt; NanNew&lt;T&gt;( ... )\n\nUse `NanNew` to construct almost all v8 objects and make new local handles.\n\n```c++\nLocal<String> s = NanNew<String>("value");\n\n...\n\nPersistent<Object> o;\n\n...\n\nLocal<Object> lo = NanNew(o);\n\n```\n\n<a name="api_nan_undefined"></a>\n### Local&lt;Primitive&gt; NanUndefined()\n\nUse instead of `Undefined()`\n\n<a name="api_nan_null"></a>\n### Local&lt;Primitive&gt; NanNull()\n\nUse instead of `Null()`\n\n<a name="api_nan_true"></a>\n### Local&lt;Boolean&gt; NanTrue()\n\nUse instead of `True()`\n\n<a name="api_nan_false"></a>\n### Local&lt;Boolean&gt; NanFalse()\n\nUse instead of `False()`\n\n<a name="api_nan_return_value"></a>\n### NanReturnValue(Handle&lt;Value&gt;)\n\nUse `NanReturnValue` when you want to return a value from your V8 accessible method:\n\n```c++\nNAN_METHOD(Foo::Bar) {\n  ...\n\n  NanReturnValue(NanNew<String>("FooBar!"));\n}\n```\n\nNo `return` statement required.\n\n<a name="api_nan_return_undefined"></a>\n### NanReturnUndefined()\n\nUse `NanReturnUndefined` when you don\'t want to return anything from your V8 accessible method:\n\n```c++\nNAN_METHOD(Foo::Baz) {\n  ...\n\n  NanReturnUndefined();\n}\n```\n\n<a name="api_nan_return_null"></a>\n### NanReturnNull()\n\nUse `NanReturnNull` when you want to return `Null` from your V8 accessible method:\n\n```c++\nNAN_METHOD(Foo::Baz) {\n  ...\n\n  NanReturnNull();\n}\n```\n\n<a name="api_nan_return_empty_string"></a>\n### NanReturnEmptyString()\n\nUse `NanReturnEmptyString` when you want to return an empty `String` from your V8 accessible method:\n\n```c++\nNAN_METHOD(Foo::Baz) {\n  ...\n\n  NanReturnEmptyString();\n}\n```\n\n<a name="api_nan_scope"></a>\n### NanScope()\n\nThe introduction of `isolate` references for many V8 calls in Node 0.11 makes `NanScope()` necessary, use it in place of `HandleScope scope` when you do not wish to return handles (`Handle` or `Local`) to the surrounding scope (or in functions directly exposed to V8, as they do not return values in the normal sense):\n\n```c++\nNAN_METHOD(Foo::Bar) {\n  NanScope();\n\n  NanReturnValue(NanNew<String>("FooBar!"));\n}\n```\n\nThis method is not directly exposed to V8, nor does it return a handle, so it uses an unescapable scope:\n\n```c++\nbool Foo::Bar() {\n  NanScope();\n  \n  Local<Boolean> val = NanFalse();\n  ...\n  return val->Value();\n}\n```\n\n<a name="api_nan_escapable_scope"></a>\n### NanEscapableScope()\n\nThe separation of handle scopes into escapable and inescapable scopes makes `NanEscapableScope()` necessary, use it in place of `HandleScope scope` when you later wish to return a handle (`Handle` or `Local`) from the scope, this is for internal functions not directly exposed to V8:\n\n```c++\nHandle<String> Foo::Bar() {\n  NanEscapableScope();\n\n  return NanEscapeScope(NanNew<String>("FooBar!"));\n}\n```\n\n<a name="api_nan_esacpe_scope"></a>\n### Local&lt;T&gt; NanEscapeScope(Handle&lt;T&gt; value);\nUse together with `NanEscapableScope` to escape the scope. Corresponds to `HandleScope::Close` or `EscapableHandleScope::Escape`.\n\n<a name="api_nan_locker"></a>\n### NanLocker()\n\nThe introduction of `isolate` references for many V8 calls in Node 0.11 makes `NanLocker()` necessary, use it in place of `Locker locker`:\n\n```c++\nNAN_METHOD(Foo::Bar) {\n  NanLocker();\n  ...\n  NanUnlocker();\n}\n```\n\n<a name="api_nan_unlocker"></a>\n### NanUnlocker()\n\nThe introduction of `isolate` references for many V8 calls in Node 0.11 makes `NanUnlocker()` necessary, use it in place of `Unlocker unlocker`:\n\n```c++\nNAN_METHOD(Foo::Bar) {\n  NanLocker();\n  ...\n  NanUnlocker();\n}\n```\n\n<a name="api_nan_get_internal_field_pointer"></a>\n### void * NanGetInternalFieldPointer(Handle&lt;Object&gt;, int)\n\nGets a pointer to the internal field with at `index` from a V8 `Object` handle.\n\n```c++\nLocal<Object> obj;\n...\nNanGetInternalFieldPointer(obj, 0);\n```\n<a name="api_nan_set_internal_field_pointer"></a>\n### void NanSetInternalFieldPointer(Handle&lt;Object&gt;, int, void *)\n\nSets the value of the internal field at `index` on a V8 `Object` handle.\n\n```c++\nstatic Persistent<Function> dataWrapperCtor;\n...\nLocal<Object> wrapper = NanNew(dataWrapperCtor)->NewInstance();\nNanSetInternalFieldPointer(wrapper, 0, this);\n```\n\n<a name="api_nan_object_wrap_handle"></a>\n### Local&lt;Object&gt; NanObjectWrapHandle(Object)\n\nWhen you want to fetch the V8 object handle from a native object you\'ve wrapped with Node\'s `ObjectWrap`, you should use `NanObjectWrapHandle`:\n\n```c++\nNanObjectWrapHandle(iterator)->Get(NanNew<String>("end"))\n```\n\n<a name="api_nan_symbol"></a>\n### <del>Local&lt;String&gt; NanSymbol(const char *)</del>\n\nDeprecated. Use `NanNew<String>` instead.\n<del>Use to create string symbol objects (i.e. `v8::String::NewSymbol(x)`), for getting and setting object properties, or names of objects.</del>\n\n```c++\nbool foo = false;\nif (obj->Has(NanNew<String>("foo")))\n  foo = optionsObj->Get(NanNew<String>("foo"))->BooleanValue()\n```\n\n<a name="api_nan_get_pointer_safe"></a>\n### Type NanGetPointerSafe(Type *[, Type])\n\nA helper for getting values from optional pointers. If the pointer is `NULL`, the function returns the optional default value, which defaults to `0`.  Otherwise, the function returns the value the pointer points to.\n\n```c++\nchar *plugh(uint32_t *optional) {\n  char res[] = "xyzzy";\n  uint32_t param = NanGetPointerSafe<uint32_t>(optional, 0x1337);\n  switch (param) {\n    ...\n  }\n  NanSetPointerSafe<uint32_t>(optional, 0xDEADBEEF);\n}  \n```\n\n<a name="api_nan_set_pointer_safe"></a>\n### bool NanSetPointerSafe(Type *, Type)\n\nA helper for setting optional argument pointers. If the pointer is `NULL`, the function simply returns `false`.  Otherwise, the value is assigned to the variable the pointer points to.\n\n```c++\nconst char *plugh(size_t *outputsize) {\n  char res[] = "xyzzy";\n  if !(NanSetPointerSafe<size_t>(outputsize, strlen(res) + 1)) {\n    ...\n  }\n\n  ...\n}\n```\n\n<a name="api_nan_raw_string"></a>\n### void* NanRawString(Handle&lt;Value&gt;, enum Nan::Encoding, size_t *, void *, size_t, int)\n\nWhen you want to convert a V8 `String` to a `char*` buffer, use `NanRawString`. You have to supply an encoding as well as a pointer to a variable that will be assigned the number of bytes in the returned string. It is also possible to supply a buffer and its length to the function in order not to have a new buffer allocated. The final argument allows setting `String::WriteOptions`.\nJust remember that you\'ll end up with an object that you\'ll need to `delete[]` at some point unless you supply your own buffer:\n\n```c++\nsize_t count;\nvoid* decoded = NanRawString(args[1], Nan::BASE64, &count, NULL, 0, String::HINT_MANY_WRITES_EXPECTED);\nchar param_copy[count];\nmemcpy(param_copy, decoded, count);\ndelete[] decoded;\n```\n\n<a name="api_nan_c_string"></a>\n### char* NanCString(Handle&lt;Value&gt;, size_t *[, char *, size_t, int])\n\nWhen you want to convert a V8 `String` to a null-terminated C `char*` use `NanCString`. The resulting `char*` will be UTF-8-encoded, and you need to supply a pointer to a variable that will be assigned the number of bytes in the returned string. It is also possible to supply a buffer and its length to the function in order not to have a new buffer allocated. The final argument allows optionally setting `String::WriteOptions`, which default to `v8::String::NO_OPTIONS`.\nJust remember that you\'ll end up with an object that you\'ll need to `delete[]` at some point unless you supply your own buffer:\n\n```c++\nsize_t count;\nchar* name = NanCString(args[0], &count);\n```\n\n<a name="api_nan_boolean_option_value"></a>\n### bool NanBooleanOptionValue(Handle&lt;Value&gt;, Handle&lt;String&gt;[, bool])\n\nWhen you have an "options" object that you need to fetch properties from, boolean options can be fetched with this pair. They check first if the object exists (`IsEmpty`), then if the object has the given property (`Has`) then they get and convert/coerce the property to a `bool`.\n\nThe optional last parameter is the *default* value, which is `false` if left off:\n\n```c++\n// `foo` is false unless the user supplies a truthy value for it\nbool foo = NanBooleanOptionValue(optionsObj, NanNew<String>("foo"));\n// `bar` is true unless the user supplies a falsy value for it\nbool bar = NanBooleanOptionValueDefTrue(optionsObj, NanNew<String>("bar"), true);\n```\n\n<a name="api_nan_uint32_option_value"></a>\n### uint32_t NanUInt32OptionValue(Handle&lt;Value&gt;, Handle&lt;String&gt;, uint32_t)\n\nSimilar to `NanBooleanOptionValue`, use `NanUInt32OptionValue` to fetch an integer option from your options object. Can be any kind of JavaScript `Number` and it will be coerced to an unsigned 32-bit integer.\n\nRequires all 3 arguments as a default is not optional:\n\n```c++\nuint32_t count = NanUInt32OptionValue(optionsObj, NanNew<String>("count"), 1024);\n```\n\n<a name="api_nan_error"></a>\n### NanError(message), NanTypeError(message), NanRangeError(message)\n\nFor making `Error`, `TypeError` and `RangeError` objects.\n\n```c++\nLocal<Value> res = NanError("you must supply a callback argument");\n```\n\n<a name="api_nan_throw_error"></a>\n### NanThrowError(message), NanThrowTypeError(message), NanThrowRangeError(message), NanThrowError(Local&lt;Value&gt;), NanThrowError(Local&lt;Value&gt;, int)\n\nFor throwing `Error`, `TypeError` and `RangeError` objects.\n\n```c++\nNanThrowError("you must supply a callback argument");\n```\n\nCan also handle any custom object you may want to throw. If used with the error code argument, it will add the supplied error code to the error object as a property called `code`.\n\n<a name="api_nan_new_buffer_handle"></a>\n### Local&lt;Object&gt; NanNewBufferHandle(char *, uint32_t), Local&lt;Object&gt; NanNewBufferHandle(uint32_t)\n\nThe `Buffer` API has changed a little in Node 0.11, this helper provides consistent access to `Buffer` creation:\n\n```c++\nNanNewBufferHandle((char*)value.data(), value.size());\n```\n\nCan also be used to initialize a `Buffer` with just a `size` argument.\n\nCan also be supplied with a `NanFreeCallback` and a hint for the garbage collector.\n\n<a name="api_nan_buffer_use"></a>\n### Local&lt;Object&gt; NanBufferUse(char*, uint32_t)\n\n`Buffer::New(char*, uint32_t)` prior to 0.11 would make a copy of the data.\nWhile it was possible to get around this, it required a shim by passing a\ncallback. So the new API `Buffer::Use(char*, uint32_t)` was introduced to remove\nneeding to use this shim.\n\n`NanBufferUse` uses the `char*` passed as the backing data, and will free the\nmemory automatically when the weak callback is called. Keep this in mind, as\ncareless use can lead to "double free or corruption" and other cryptic failures.\n\n<a name="api_nan_has_instance"></a>\n### bool NanHasInstance(Persistent&lt;FunctionTemplate&gt;&, Handle&lt;Value&gt;)\n\nCan be used to check the type of an object to determine it is of a particular class you have already defined and have a `Persistent<FunctionTemplate>` handle for.\n\n<a href="#api_nan_new_context_handle">\n### Local&lt;Context&gt; NanNewContextHandle([ExtensionConfiguration*, Handle&lt;ObjectTemplate&gt;, Handle&lt;Value&gt;])\nCreates a new `Local<Context>` handle.\n\n```c++\nLocal<FunctionTemplate> ftmpl = NanNew<FunctionTemplate>();\nLocal<ObjectTemplate> otmpl = ftmpl->InstanceTemplate();\nLocal<Context> ctx =  NanNewContextHandle(NULL, otmpl);\n```\n\n<a href="#api_nan_get_current_context">\n### Local&lt;Context&gt; NanGetCurrentContext()\n\nGets the current context.\n\n```c++\nLocal<Context> ctx = NanGetCurrentContext();\n```\n\n<a name="api_nan_dispose_persistent"></a>\n### void NanDisposePersistent(Persistent&lt;T&gt; &)\n\nUse `NanDisposePersistent` to dispose a `Persistent` handle.\n\n```c++\nNanDisposePersistent(persistentHandle);\n```\n\n<a name="api_nan_assign_persistent"></a>\n### NanAssignPersistent(handle, object)\n\nUse `NanAssignPersistent` to assign a non-`Persistent` handle to a `Persistent` one. You can no longer just declare a `Persistent` handle and assign directly to it later, you have to `Reset` it in Node 0.11, so this makes it easier.\n\nIn general it is now better to place anything you want to protect from V8\'s garbage collector as properties of a generic `Object` and then assign that to a `Persistent`. This works in older versions of Node also if you use `NanAssignPersistent`:\n\n```c++\nPersistent<Object> persistentHandle;\n\n...\n\nLocal<Object> obj = NanNew<Object>();\nobj->Set(NanNew<String>("key"), keyHandle); // where keyHandle might be a Local<String>\nNanAssignPersistent(persistentHandle, obj)\n```\n\n<a name="api_nan_make_weak_persistent"></a>\n### _NanWeakCallbackInfo&lt;T, P&gt;* NanMakeWeakPersistent(Handle&lt;T&gt;, P*, _NanWeakCallbackInfo&lt;T, P&gt;::Callback)\n\nCreates a weak persistent handle with the supplied parameter and `NAN_WEAK_CALLBACK`. The callback has to be fully specialized to work on all versions of Node.\n\n```c++\nNAN_WEAK_CALLBACK(weakCallback) {\n\n...\n\n}\n\nLocal<Function> func;\n\n...\n\nint *parameter = new int(0);\nNanMakeWeakPersistent(func, parameter, &weakCallback<Function, int>);\n```\n\n<a name="api_nan_set_template"></a>\n### NanSetTemplate(templ, name, value)\n\nUse to add properties on object and function templates.\n\n<a name="api_nan_make_callback"></a>\n### NanMakeCallback(target, func, argc, argv)\n\nUse instead of `node::MakeCallback` to call javascript functions. This is the only proper way of calling functions.\n\n<a name="api_nan_compile_script"></a>\n### NanCompileScript(Handle<String> s [, const ScriptOrigin&amp; origin])\n\nUse to create new scripts bound to the current context.\n\n<a name="api_nan_run_script"></a>\n### NanRunScript(script)\n\nUse to run both bound and unbound scripts.\n\n<a name="api_nan_adjust_external_memory"></a>\n### NanAdjustExternalMemory(int change_in_bytes)\n\nSimply does `AdjustAmountOfExternalAllocatedMemory`\n\n<a name="api_nan_add_gc_epilogue_callback"></a>\n### NanAddGCEpilogueCallback(GCEpilogueCallback callback, GCType gc_type_filter=kGCTypeAll)\n\nSimply does `AddGCEpilogueCallback`\n\n<a name="api_nan_add_gc_prologue_callback"></a>\n### NanAddGCPrologueCallback(GCPrologueCallback callback, GCType gc_type_filter=kGCTypeAll)\n\nSimply does `AddGCPrologueCallback`\n\n<a name="api_nan_remove_gc_epilogue_callback"></a>\n### NanRemoveGCEpilogueCallback(GCEpilogueCallback callback)\n\nSimply does `RemoveGCEpilogueCallback`\n\n<a name="api_nan_add_gc_prologue_callback"></a>\n### NanRemoveGCPrologueCallback(GCPrologueCallback callback)\n\nSimply does `RemoveGCPrologueCallback`\n\n<a name="api_nan_get_heap_statistics"></a>\n### NanGetHeapStatistics(HeapStatistics *heap_statistics)\n\nSimply does `GetHeapStatistics`\n\n<a name="api_nan_callback"></a>\n### NanCallback\n\nBecause of the difficulties imposed by the changes to `Persistent` handles in V8 in Node 0.11, creating `Persistent` versions of your `Handle<Function>` is annoyingly tricky. `NanCallback` makes it easier by taking your handle, making it persistent until the `NanCallback` is deleted and even providing a handy `Call()` method to fetch and execute the callback `Function`.\n\n```c++\nLocal<Function> callbackHandle = args[0].As<Function>();\nNanCallback *callback = new NanCallback(callbackHandle);\n// pass `callback` around and it\'s safe from GC until you:\ndelete callback;\n```\n\nYou can execute the callback like so:\n\n```c++\n// no arguments:\ncallback->Call(0, NULL);\n\n// an error argument:\nHandle<Value> argv[] = {\n  NanError(NanNew<String>("fail!"))\n};\ncallback->Call(1, argv);\n\n// a success argument:\nHandle<Value> argv[] = {\n  NanNull(),\n  NanNew<String>("w00t!")\n};\ncallback->Call(2, argv);\n```\n\n`NanCallback` also has a `Local<Function> GetCallback()` method that you can use\nto fetch a local handle to the underlying callback function, as well  as a\n`void SetFunction(Handle<Function>)` for setting the callback on the\n`NanCallback`. You can check if a `NanCallback` is empty with the `bool IsEmpty()` method. Additionally a generic constructor is available for using\n`NanCallback` without performing heap allocations.\n\n<a name="api_nan_async_worker"></a>\n### NanAsyncWorker\n\n`NanAsyncWorker` is an abstract class that you can subclass to have much of the annoying async queuing and handling taken care of for you. It can even store arbitrary V8 objects for you and have them persist while the async work is in progress.\n\nSee a rough outline of the implementation:\n\n```c++\nclass NanAsyncWorker {\npublic:\n  NanAsyncWorker (NanCallback *callback);\n\n  // Clean up persistent handles and delete the *callback\n  virtual ~NanAsyncWorker ();\n\n  // Check the `ErrorMessage()` and call HandleOKCallback()\n  // or HandleErrorCallback depending on whether it has been set or not\n  virtual void WorkComplete ();\n\n  // You must implement this to do some async work. If there is an\n  // error then use `SetErrorMessage()` to set an error message and the callback will\n  // be passed that string in an Error object\n  virtual void Execute ();\n\n  // Save a V8 object in a Persistent handle to protect it from GC\n  void SaveToPersistent(const char *key, Local<Object> &obj);\n\n  // Fetch a stored V8 object (don\'t call from within `Execute()`)\n  Local<Object> GetFromPersistent(const char *key);\n  \n  // Get the error message (or NULL)\n  const char *ErrorMessage();\n  \n  // Set an error message\n  void SetErrorMessage(const char *msg);\n  \nprotected:\n  // Default implementation calls the callback function with no arguments.\n  // Override this to return meaningful data\n  virtual void HandleOKCallback ();\n\n  // Default implementation calls the callback function with an Error object\n  // wrapping the `errmsg` string\n  virtual void HandleErrorCallback ();\n};\n```\n\n<a name="api_nan_async_queue_worker"></a>\n### NanAsyncQueueWorker(NanAsyncWorker *)\n\n`NanAsyncQueueWorker` will run a `NanAsyncWorker` asynchronously via libuv. Both the *execute* and *after_work* steps are taken care of for you&mdash;most of the logic for this is embedded in `NanAsyncWorker`.\n\n### Contributors\n\nNAN is only possible due to the excellent work of the following contributors:\n\n<table><tbody>\n<tr><th align="left">Rod Vagg</th><td><a href="https://github.com/rvagg">GitHub/rvagg</a></td><td><a href="http://twitter.com/rvagg">Twitter/@rvagg</a></td></tr>\n<tr><th align="left">Benjamin Byholm</th><td><a href="https://github.com/kkoopa/">GitHub/kkoopa</a></td><td>-</td></tr>\n<tr><th align="left">Trevor Norris</th><td><a href="https://github.com/trevnorris">GitHub/trevnorris</a></td><td><a href="http://twitter.com/trevnorris">Twitter/@trevnorris</a></td></tr>\n<tr><th align="left">Nathan Rajlich</th><td><a href="https://github.com/TooTallNate">GitHub/TooTallNate</a></td><td><a href="http://twitter.com/TooTallNate">Twitter/@TooTallNate</a></td></tr>\n<tr><th align="left">Brett Lawson</th><td><a href="https://github.com/brett19">GitHub/brett19</a></td><td><a href="http://twitter.com/brett19x">Twitter/@brett19x</a></td></tr>\n<tr><th align="left">Ben Noordhuis</th><td><a href="https://github.com/bnoordhuis">GitHub/bnoordhuis</a></td><td><a href="http://twitter.com/bnoordhuis">Twitter/@bnoordhuis</a></td></tr>\n</tbody></table>\n\nLicence &amp; copyright\n-----------------------\n\nCopyright (c) 2014 NAN contributors (listed above).\n\nNative Abstractions for Node.js is licensed under an MIT +no-false-attribs license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE file for more details.\n',
+250 silly resolved     readmeFilename: 'README.md',
+250 silly resolved     bugs: { url: 'https://github.com/rvagg/nan/issues' },
+250 silly resolved     homepage: 'https://github.com/rvagg/nan',
+250 silly resolved     _id: 'nan@1.1.0',
+250 silly resolved     dist: { shasum: '4f70b693ca199cb65a402de7221bbe9b2fb92e86' },
+250 silly resolved     _from: 'nan@~1.1.0',
+250 silly resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-1.1.0.tgz' } ]
+251 info install nan@1.1.0 into /home/cdn/public_html/parser/node_modules/imagemagick-native
+252 info installOne nan@1.1.0
+253 info /home/cdn/public_html/parser/node_modules/imagemagick-native/node_modules/nan unbuild
+254 verbose tar unpack /home/cdn/.npm/nan/1.1.0/package.tgz
+255 silly lockFile d5ff70c2-gemagick-native-node-modules-nan tar:///home/cdn/public_html/parser/node_modules/imagemagick-native/node_modules/nan
+256 verbose lock tar:///home/cdn/public_html/parser/node_modules/imagemagick-native/node_modules/nan /home/cdn/.npm/d5ff70c2-gemagick-native-node-modules-nan.lock
+257 silly lockFile 02776fac-me-cdn-npm-nan-1-1-0-package-tgz tar:///home/cdn/.npm/nan/1.1.0/package.tgz
+258 verbose lock tar:///home/cdn/.npm/nan/1.1.0/package.tgz /home/cdn/.npm/02776fac-me-cdn-npm-nan-1-1-0-package-tgz.lock
+259 silly gunzTarPerm modes [ '755', '644' ]
+260 silly gunzTarPerm extractEntry package.json
+261 silly gunzTarPerm extractEntry README.md
+262 silly gunzTarPerm extractEntry LICENSE
+263 silly gunzTarPerm extractEntry include_dirs.js
+264 silly gunzTarPerm extractEntry .dntrc
+265 silly gunzTarPerm extractEntry build/config.gypi
+266 silly gunzTarPerm extractEntry nan.h
+267 silly lockFile d5ff70c2-gemagick-native-node-modules-nan tar:///home/cdn/public_html/parser/node_modules/imagemagick-native/node_modules/nan
+268 silly lockFile d5ff70c2-gemagick-native-node-modules-nan tar:///home/cdn/public_html/parser/node_modules/imagemagick-native/node_modules/nan
+269 silly lockFile 02776fac-me-cdn-npm-nan-1-1-0-package-tgz tar:///home/cdn/.npm/nan/1.1.0/package.tgz
+270 silly lockFile 02776fac-me-cdn-npm-nan-1-1-0-package-tgz tar:///home/cdn/.npm/nan/1.1.0/package.tgz
+271 info preinstall nan@1.1.0
+272 verbose readDependencies using package.json deps
+273 verbose readDependencies using package.json deps
+274 silly resolved []
+275 verbose about to build /home/cdn/public_html/parser/node_modules/imagemagick-native/node_modules/nan
+276 info build /home/cdn/public_html/parser/node_modules/imagemagick-native/node_modules/nan
+277 verbose linkStuff [ false,
+277 verbose linkStuff   false,
+277 verbose linkStuff   false,
+277 verbose linkStuff   '/home/cdn/public_html/parser/node_modules/imagemagick-native/node_modules' ]
+278 info linkStuff nan@1.1.0
+279 verbose linkBins nan@1.1.0
+280 verbose linkMans nan@1.1.0
+281 verbose rebuildBundles nan@1.1.0
+282 info install nan@1.1.0
+283 info postinstall nan@1.1.0
+284 verbose about to build /home/cdn/public_html/parser/node_modules/imagemagick-native
+285 info build /home/cdn/public_html/parser/node_modules/imagemagick-native
+286 verbose linkStuff [ false,
+286 verbose linkStuff   false,
+286 verbose linkStuff   false,
+286 verbose linkStuff   '/home/cdn/public_html/parser/node_modules' ]
+287 info linkStuff imagemagick-native@1.1.1
+288 verbose linkBins imagemagick-native@1.1.1
+289 verbose linkMans imagemagick-native@1.1.1
+290 verbose rebuildBundles imagemagick-native@1.1.1
+291 verbose rebuildBundles [ 'nan' ]
+292 info install imagemagick-native@1.1.1
+293 verbose unsafe-perm in lifecycle true
+294 info imagemagick-native@1.1.1 Failed to exec install script
+295 info /home/cdn/public_html/parser/node_modules/imagemagick-native unbuild
+296 info preuninstall imagemagick-native@1.1.1
+297 info uninstall imagemagick-native@1.1.1
+298 verbose true,/home/cdn/public_html/parser/node_modules,/home/cdn/public_html/parser/node_modules unbuild imagemagick-native@1.1.1
+299 info postuninstall imagemagick-native@1.1.1
+300 error imagemagick-native@1.1.1 install: `node-gyp rebuild`
+300 error Exit status 1
+301 error Failed at the imagemagick-native@1.1.1 install script.
+301 error This is most likely a problem with the imagemagick-native package,
+301 error not with npm itself.
+301 error Tell the author that this fails on your system:
+301 error     node-gyp rebuild
+301 error You can get their info via:
+301 error     npm owner ls imagemagick-native
+301 error There is likely additional logging output above.
+302 error System Linux 2.6.32-23-pve
+303 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+304 error cwd /home/cdn/public_html/parser
+305 error node -v v0.10.26
+306 error npm -v 1.4.3
+307 error code ELIFECYCLE
+308 verbose exit [ 1, true ]

@@ -4,7 +4,8 @@
   "author": "Rachel <rachel@ragnastats.com>",
   "description": "A little node script to generate symlinks for sprites based on their item ID",
   "dependencies" : {
-    "node-jquery": "*"
+    "node-jquery": "*",
+    "imagemagick-native": "*"
   },
   "license": "MIT"
 }
