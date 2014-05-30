@@ -1,12 +1,18 @@
 #!/bin/bash
 
-cd src/item/
+path=$(pwd)
+cd $path/src/item/
 
 for img in *.bmp; do
     filename=${img%.*}
-    base64=$(echo $filename | base64)
-    convert "$filename.bmp" -fuzz "2%" -transparent \#ff00ff "$base64.png"
+    base64=$(echo $filename | base64 | tr / -)
+    convert "$filename.bmp" -fuzz "2%" -transparent \#ff00ff "$path/../item/src/$base64.png"
 done
 
-#convert test2.bmp -fuzz "2%" -transparent \#ff00ff test2.png
-#convert test2.bmp -fuzz "2%" -transparent \#ff00ff test2.png
+cd $path/src/collection/
+
+for img in *.bmp; do
+    filename=${img%.*}
+    base64=$(echo $filename | base64 | tr / -)
+    convert "$filename.bmp" -fuzz "2%" -transparent \#ff00ff "$path/../collection/src/$base64.png"
+done
