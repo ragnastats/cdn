@@ -8,7 +8,6 @@ fs.readFile('grf/idnum2itemresnametable.txt', 'utf8', function(error, file)
         return console.log(error);
     }
 
-    process.chdir('../item/');
     var items = file.split("\n");
 
     $.each(items, function(index, item)
@@ -16,10 +15,9 @@ fs.readFile('grf/idnum2itemresnametable.txt', 'utf8', function(error, file)
         if(/[0-9]+#[^#]+#/.test(item))
         {
             item = item.split("#");
-            var item = {id: item[0], name: item[1]}; // new Buffer(item[1]).toString('base64').replace(/\//g, '-')};
-
-console.log(item.name);
-
+            var item = {id: item[0], name: item[1]};
+            
+            process.chdir('../item/');
             fs.exists('src/'+item.name+'.png', function(exists)
             {
                 if(exists)
@@ -27,10 +25,18 @@ console.log(item.name);
                     console.log("Item "+item.name+" exists.");
                     fs.symlink('src/'+item.name+'.png', item.id+'.png');
                 }
-                //else
-                //    console.log("DOES NOT EXIST: "+item.name);
             });
-            //console.log(item);
+
+
+            process.chdir('../collection/');
+            fs.exists('src/'+item.name+'.png', function(exists)
+            {
+                if(exists)
+                {
+                    console.log("Collection "+item.name+" exists.");
+                    fs.symlink('src/'+item.name+'.png', item.id+'.png');
+                }
+            });
          }
     });
 });
